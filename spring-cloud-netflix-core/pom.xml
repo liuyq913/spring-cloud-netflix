@@ -89,21 +89,25 @@
 		<dependency>
 			<groupId>com.netflix.hystrix</groupId>
 			<artifactId>hystrix-core</artifactId>
+			<version>1.5.18</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.netflix.hystrix</groupId>
 			<artifactId>hystrix-serialization</artifactId>
+			<version>1.5.18</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.netflix.hystrix</groupId>
 			<artifactId>hystrix-metrics-event-stream</artifactId>
+			<version>1.5.18</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>com.netflix.hystrix</groupId>
 			<artifactId>hystrix-javanica</artifactId>
+			<version>1.5.18</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
@@ -160,6 +164,11 @@
 			<groupId>com.netflix.ribbon</groupId>
 			<artifactId>ribbon</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-commons</artifactId>
+			<version>RELEASE</version>
 		</dependency>
 	</dependencies>
 	<profiles>
