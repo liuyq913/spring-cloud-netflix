@@ -16,21 +16,20 @@
 
 package org.springframework.cloud.netflix.ribbon;
 
-import java.io.IOException;
-import java.net.URI;
-import java.util.Collections;
-import java.util.Map;
-
 import com.netflix.client.config.IClientConfig;
 import com.netflix.loadbalancer.ILoadBalancer;
 import com.netflix.loadbalancer.Server;
-
 import org.springframework.cloud.client.DefaultServiceInstance;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalancerRequest;
 import org.springframework.util.Assert;
 import org.springframework.util.ReflectionUtils;
+
+import java.io.IOException;
+import java.net.URI;
+import java.util.Collections;
+import java.util.Map;
 
 import static org.springframework.cloud.netflix.ribbon.RibbonUtils.updateToSecureConnectionIfNeeded;
 
